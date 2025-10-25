@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     background-color: bisque;
 }
@@ -59,4 +60,49 @@ h1 {
 .xyz {
     font-family: hij;
     color: rgb(82, 116, 25);
+=======
+*{
+    background-color: lightblue;
+}
+h1 {
+   background-color: aqua; color: black;
+    text-align: center;
+}
+h3 {
+    background-color: yellow; color: red;
+    text-align: center;
+}
+h2 {
+    background-color: orange; color: white;
+    text-align: center;
+}
+#p1 {
+    background-color: lightgreen; color: black;
+    text-align: center;
+}
+#p2 {
+    background-color: lightgrey; color: black;
+    text-align: center;
+}
+#p3 {
+    background-color: lightpink; color: black;
+    text-align: center;
+}
+.xyz {
+    background-color: lightcoral;
+    border: 4px dashed black;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#p1{
+    color: burlywood;
+}
+#p2{
+    color: cadetblue;
+}
+#p3{
+    color: chocolate;
+>>>>>>> 535781db4f0bb2a8bb65f2aac8a876c389014857
 }
