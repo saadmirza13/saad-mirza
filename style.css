@@ -1,0 +1,62 @@
+* {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    background-color: aquamarine;
+    color: cadetblue;
+    line-height: 250%;
+}
+
+.abc ::first-letter {
+
+    font-size: 200%;
+
+}
+
+.abc {
+    background-color: lightgreen;
+    font-size: italic;
+    text-transform: capitalize;
+}
+
+.first {
+    background-color: lightcoral;
+    border: 5px solid rgb(131, 17, 17);
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.abc ::first-letter {
+    color: lightskyblue;
+}
+
+.bca ::first-letter {
+    font-size: 300%;
+}
+
+@font-face {
+    font-family: efg;
+    src: url(./LobsterTwo_bold.ttf);
+}
+
+.bca {
+    font-family: efg;
+    color: rgb(221, 199, 0);
+}
+
+.xyz ::first-line {
+    font-size: 450%;
+}
+
+@font-face {
+    font-family: hij;
+    src: url(./orbitron_medium.ttf);
+}
+
+.xyz {
+    font-family: hij;
+    color: rgb(82, 116, 25);
+}
