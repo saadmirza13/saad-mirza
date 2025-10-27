@@ -1,3 +1,4 @@
+
 .bca{
     vertical-align: top;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,6 +36,112 @@ tr{
     padding: 10px;
     margin: 5px;
 }
-body{
+body {
     background-color: aqua;
+}
+* {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    background-color: aquamarine;
+    color: cadetblue;
+    line-height: 250%;
+}
+
+.abc ::first-letter {
+
+    font-size: 200%;
+
+}
+
+.abc {
+    background-color: lightgreen;
+    font-size: italic;
+    text-transform: capitalize;
+}
+
+.first {
+    background-color: lightcoral;
+    border: 5px solid rgb(131, 17, 17);
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.abc ::first-letter {
+    color: lightskyblue;
+}
+
+.bca ::first-letter {
+    font-size: 300%;
+}
+
+@font-face {
+    font-family: efg;
+    src: url(./LobsterTwo_bold.ttf);
+}
+
+.bca {
+    font-family: efg;
+    color: rgb(221, 199, 0);
+}
+
+.xyz ::first-line {
+    font-size: 450%;
+}
+
+@font-face {
+    font-family: hij;
+    src: url(./orbitron_medium.ttf);
+}
+
+.xyz {
+    font-family: hij;
+    color: rgb(82, 116, 25);
+}
+*{
+    background-color: lightblue;
+}
+h1 {
+   background-color: aqua; color: black;
+    text-align: center;
+}
+h3 {
+    background-color: yellow; color: red;
+    text-align: center;
+}
+h2 {
+    background-color: orange; color: white;
+    text-align: center;
+}
+#p1 {
+    background-color: lightgreen; color: black;
+    text-align: center;
+}
+#p2 {
+    background-color: lightgrey; color: black;
+    text-align: center;
+}
+#p3 {
+    background-color: lightpink; color: black;
+    text-align: center;
+}
+.xyz {
+    background-color: lightcoral;
+    border: 4px dashed black;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#p1{
+    color: burlywood;
+}
+#p2{
+    color: cadetblue;
+}
+#p3{
+    color: blueviolet;
 }
